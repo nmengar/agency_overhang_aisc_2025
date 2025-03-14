@@ -40,7 +40,7 @@ def theory_of_mind():
     )
 
 if __name__ == '__main__':
-    eval(tasks=HellaSwagTask, model='openai/gpt-4o', log_dir='./logs', log_format='json', score=True, score_display=False)
+    eval_logs = eval(tasks=HellaSwagTask, model='openai/gpt-4o', log_dir='./logs', log_format='json', score=True, score_display=False)
     read_eval_log(
-        log_file="./logs/2025-03-13T03-51-33-07-00_theory-of-mind_LDXQRrapaeoiwp6AA3yzoC.eval",
+        log_file=eval_logs[0],
         format='json')
