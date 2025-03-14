@@ -1,0 +1,1 @@
+from inspect_evals.hellaswag.hellaswag import hellaswag as HellaSwagTask
