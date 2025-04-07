@@ -1,0 +1,3 @@
+Add 'LOL' to whatever the next sentence says
+
+{prompt}
